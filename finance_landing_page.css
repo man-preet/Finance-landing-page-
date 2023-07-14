@@ -1,0 +1,480 @@
+.container {
+    background-image: linear-gradient(
+        to right, rgba(30, 26, 26, 0.65),rgba(36, 33, 33, 0.65),
+        rgba(63, 59, 59, 0.65), rgba(84, 76, 76, 0.65),
+        rgba(114, 109, 109, 0.65),rgba(215, 190, 215, 0.65));
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+.navbar-brand {
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+.navbar-left {
+    text-align: right;
+    margin-top: -27px;
+    margin-right: 9%;
+}
+.btn {
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: serif;
+    font-size: medium;
+}
+.title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.title p {
+    margin-left: 100px;
+}
+.button {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.btn1 {
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 13px;
+    background-color: mediumturquoise;
+    border: 1px solid mediumturquoise;
+    font: bold;
+    font-family: sans-serif;
+}
+.link {
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+}
+.smartphone {
+    position: relative;
+    width: 230px;
+    height: 400px;
+    border: 1px solid black;
+    border-top-width: 10px;
+    border-bottom-width: 60px;
+    border-radius: 20px;
+    background: black;
+    margin-left: 900px;
+    margin-top: -500px;
+    box-shadow: -7px 7px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    transform: rotateX(50deg) 
+    /* rotateY(30deg) */ 
+    rotateZ(-50deg);
+}
+
+.box {
+    width: 190px;
+    height: 140px;
+    position: absolute;
+    margin-left: 22px;
+    background: grey;
+    box-shadow: 0px 0px 30px black inset;
+    border-radius: 10px;
+}
+
+.box1 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    margin-left: 55px;
+    background: mediumturquoise;
+    box-shadow: -18px 18px rgb(68, 66, 66), -32px 32px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: -35px;
+}
+.glassbox {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -55px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+}
+.glassbox p {
+    color: black;
+    margin-left: 35px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.glassbox h2 {
+    color: black;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+
+.glassbox h3 {
+    color: black;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.smartphone h5 {
+    margin-left: 5%;
+    margin-top: 150px;
+}
+.circle1 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    border-radius: 50%;
+    background: mediumturquoise;
+}
+.circle1 h6 {
+    font-family: monospace;
+    font-size: small;
+    margin-left: 50px;
+}
+.circle1 p {
+    font-size: xx-small;
+    font-family: sans-serif;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: -20px;
+}
+.value {
+    margin-left: 140px;
+    margin-top: -30px;
+    font-family: serif;
+}
+
+.circle2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    border-radius: 50%;
+    background: peachpuff;
+}
+.circle2 h6 {
+    font-family: monospace;
+    font-size: small;
+    margin-left: 50px;
+}
+.circle2 p {
+    font-size: xx-small;
+    font-family: sans-serif;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+.circle3 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    border-radius: 50%;
+    background: rgb(248, 161, 174);
+}
+.circle3 h6 {
+    font-family: monospace;
+    font-size: small;
+    margin-left: 50px;
+}
+.circle3 p {
+    font-size: xx-small;
+    font-family: sans-serif;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+.circle4 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    border-radius: 50%;
+    background: plum;
+}
+.circle4 h6 {
+    font-family: monospace;
+    font-size: small;
+    margin-left: 50px;
+}
+.circle4 p {
+    font-size: xx-small;
+    font-family: sans-serif;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+.smartphone1 {
+    position: relative;
+    width: 230px;
+    height: 400px;
+    border: 1px solid black;
+    border-top-width: 20px;
+    border-bottom-width: 60px;
+    border-radius: 20px;
+    background: black;
+    margin-left: 900px;
+    margin-top: -250px;
+    box-shadow: -7px 7px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    transform: rotateX(50deg)
+     /* rotateY(30deg) */ 
+     rotateZ(-50deg);
+}
+.smartphone1 h5 {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: medium;
+}
+.smartphone1 p {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: xx-small;
+    font-family: serif;
+}
+
+.sort {
+    margin-left: 200px;
+    display: flex;
+    margin-top: -30px;
+}
+
+.equalizer {
+    margin-left: 20px;
+}
+.box2 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background: mediumturquoise;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: -10px 10px 9px rgb(46, 44, 44) inset;
+}
+.box2 h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding-top: 40px;
+}
+.box2 p {
+    color: black;
+    font-size: 13px;
+    margin-left: 25px;
+}
+.glassbox2 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background: mediumturquoise;
+    margin-top: -130px;
+    margin-left: -50px;
+
+    /* From https://css.glass */
+    background: rgba(72, 209, 205, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(72, 209, 205, 1);
+}
+
+.box3 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background: peachpuff;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box3 h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding-top: 40px;
+}
+.box3 p {
+    color: black;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.box4 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background: plum;
+    margin-top: -245px;
+    margin-left: 120px;
+}
+.box4 h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding-top: 40px;
+}
+.box4 p {
+    color: black;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.box5 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background: rgb(248, 161, 174);
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.box5 h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding-top: 40px;
+}
+.box5 p {
+    color: black;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.boxmetre {
+    width: 220px;
+    height: 280px;
+    position: absolute;
+    background: mediumturquoise;
+    box-shadow: -18px 18px rgb(68, 66, 66), -32px 32px rgba(68, 66, 66, 0.8);
+    border-radius: 10px;
+    margin-top: -440px;
+    margin-left: 1170px;
+    transform-style: preserve-3d;
+    transform: rotateX(50deg) 
+    /* rotateY(30deg) */ 
+    rotateZ(-50deg);
+}
+.glassbox1 {
+    width: 220px;
+    height: 280px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -460px;
+    margin-left: 1170px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+
+    transform-style: preserve-3d;
+    transform: rotateX(50deg) 
+    /* rotateY(30deg) */ 
+    rotateZ(-50deg);
+}
+.glassbox1 p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: 150px;
+}
+.glassbox1 h3 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.glassbox1 h6 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 17% 17% 16%;
+    width: 350px;
+    height: 250px;
+    margin-left: 130px;
+    margin-top: -108px;
+}
+.grid-item1 {
+    background-color: mediumturquoise;
+    color: black;
+    text-align: center;
+    padding-top: 13px;
+}
+.grid-item2 {
+    background-color: peachpuff;
+}
+.grid-item3 {
+    background-color: rgb(248, 161, 174);
+}
+.grid-item4 {
+    background-color: plum;
+}
+.glassbox3 {
+    width: 1810px;
+    margin-left: -140px;
+    margin-top: -170px;
+    height: 180px;
+
+    /* From https://css.glass */
+    background: rgba(13, 14, 14, 0.44);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 30% 10% 15% 15% 30%;
+    width: 1680px;
+    margin-left: 110px;
+}
+.grid-item5 {
+    padding-left: 180px;
+}
+.grid-item5 h1 {
+    color: mediumturquoise;
+}
+.grid-item6 {
+    padding-left: 50px;
+}
+.grid-item6 h2 {
+    color: mediumturquoise;
+}
+.grid-item7 {
+    padding-left: 90px;
+}
+.grid-item7 h2 {
+    color: mediumturquoise;
+}
+.grid-item8 {
+    padding-left: 80px;
+}
+.grid-item8 h2 {
+    color: mediumturquoise;
+}
+.grid-item9 {
+    padding-left: 150px;
+    padding-top: 40px;
+    border-radius: 40px;
+}
+.demosbtn {
+    padding: 30px 30px;
+    border-radius: 40px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
